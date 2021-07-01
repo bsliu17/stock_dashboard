@@ -1,19 +1,37 @@
 {
-	"dev": {
-		"awscloudformation": {
-			"AuthRoleName": "stockmonitoringdashb-dev-20190819121234-authRole",
-			"UnauthRoleArn": "arn:aws:iam::284546856933:role/stockmonitoringdashb-dev-20190819121234-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::284546856933:role/stockmonitoringdashb-dev-20190819121234-authRole",
-			"Region": "eu-west-1",
-			"DeploymentBucketName": "stockmonitoringdashb-dev-20190819121234-deployment",
-			"UnauthRoleName": "stockmonitoringdashb-dev-20190819121234-unauthRole",
-			"StackName": "stockmonitoringdashb-dev-20190819121234",
-			"StackId": "arn:aws:cloudformation:eu-west-1:284546856933:stack/stockmonitoringdashb-dev-20190819121234/3ed5f3a0-c272-11e9-a06b-0ae15a4dadda"
-		},
-		"categories": {
-			"auth": {
-				"stockmonitoringdashb41a7f230": {}
-			}
-		}
-	}
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "stockmonitoringdashb-dev-20190819121234-authRole",
+      "UnauthRoleArn": "arn:aws:iam::284546856933:role/stockmonitoringdashb-dev-20190819121234-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::284546856933:role/stockmonitoringdashb-dev-20190819121234-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "stockmonitoringdashb-dev-20190819121234-deployment",
+      "UnauthRoleName": "stockmonitoringdashb-dev-20190819121234-unauthRole",
+      "StackName": "stockmonitoringdashb-dev-20190819121234",
+      "StackId": "arn:aws:cloudformation:eu-west-1:284546856933:stack/stockmonitoringdashb-dev-20190819121234/3ed5f3a0-c272-11e9-a06b-0ae15a4dadda"
+    },
+    "categories": {
+      "auth": {
+        "stockmonitoringdashb41a7f230": {}
+      }
+    }
+  },
+  "local": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stockmonitoringdashb-local-164052-authRole",
+      "UnauthRoleArn": "arn:aws:iam::738021000755:role/amplify-stockmonitoringdashb-local-164052-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::738021000755:role/amplify-stockmonitoringdashb-local-164052-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-stockmonitoringdashb-local-164052-deployment",
+      "UnauthRoleName": "amplify-stockmonitoringdashb-local-164052-unauthRole",
+      "StackName": "amplify-stockmonitoringdashb-local-164052",
+      "StackId": "arn:aws:cloudformation:us-west-2:738021000755:stack/amplify-stockmonitoringdashb-local-164052/a20b9430-daac-11eb-95aa-029e9f0e21f3",
+      "AmplifyAppId": "dc9iigkvj9s70"
+    },
+    "categories": {
+      "auth": {
+        "stockmonitoringdashb41a7f230": {}
+      }
+    }
+  }
 }
